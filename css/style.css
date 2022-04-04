@@ -1,0 +1,205 @@
+:root {
+    --main-foont:"Inter", "Arial", "sans serif";
+    --color-bc-link:#EA625C;
+    --color:#fff ;
+    --color-black: #000;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Medium.woff2') format('woff2'),
+    url('Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.woff2') format('woff2'),
+    url('Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-SemiBold.woff2') format('woff2'),
+    url('Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Bold.woff2') format('woff2'),
+    url('Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+*:focus {
+    outline-color: #fa4659;                             
+    outline-offset: 3px;
+    outline-width: 2px;
+    outline-style: dashed;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: var(--main-foont);
+    color: var(--color);
+}
+
+.container {
+    width: 100%;
+    max-width: 1180px;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-form-heading {
+    background-color: #f1f4ff;
+    padding: 80px 144px;
+}
+
+.secton-form-heading-container {
+    display: flex;
+}
+
+.form-heading-title {
+    max-width: 570px;
+    width: 100%;
+    background-image: url("/img/Rectangle\ 6.jpg");
+    background-repeat: no-repeat;
+    margin-right: 12px;
+    padding-left: 60px;
+    padding-top: 55px;
+    padding-right: 121px;
+    padding-bottom: 203px;
+}
+
+.form-heading-link {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: var(--color);
+    border: 1px solid #fff;
+    border-radius: 40px;
+    padding: 5px 15px;
+    
+}
+
+.form-heading-bacik {
+    font-weight: 700;
+    font-size: 36px;
+    width: 389px;
+    color: var(--color);
+    line-height: 46px;
+    margin: 0;
+    padding-top: 65px;
+    padding-bottom: 25px;
+}
+
+.form-heading-text {
+    margin: 0;
+}
+
+.form-heading-link-prices {
+    display: inline-block;
+    padding: 29px 152px;
+    background-color: #4DC490;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 19px;
+    color: var(--color);
+}
+
+.form-heading-link-prices:hover {
+    opacity: 0.8;
+    background-color:rgba(77, 196, 144, 1);
+}
+
+.form-heading-link-prices:active{
+    opacity: 0.5;
+}
+
+.form {
+    padding: 55px 60px 40px 60px;
+    background-color: var(--color);
+    border-radius: 20px;
+}
+
+.form-header{
+    color: var(--color-black);
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 79px;
+}
+
+.form-input {
+    width: 450px;
+    font-size: 16px;
+    border: none;
+    line-height: 19px;
+    padding-bottom: 11px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid var(--color-black);
+    font-family: var(--main-foont);
+    max-width: 450px;
+}
+
+/* BUTTON */
+.form-button {
+    border: none;
+    font-size: 16px;
+    background: #655AF2;
+    border-radius: 10px;
+    line-height: 19px;
+    font-weight: 600;
+    color: var(--color);
+    padding: 20px 149px;
+}
+
+.form-button:hover{
+    opacity: 0.4;
+}
+
+.form-button:active{
+    opacity: 05;
+}
+
+.form-text {
+    color: #555;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 8px;
+    line-height: 15px;
+    margin: 0;
+}
+
+.form-link {
+    color: rgba(236, 42, 8, 0.74);
+}
+
+
